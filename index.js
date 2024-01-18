@@ -15,5 +15,7 @@ button.addEventListener('click', function(e) {
   \nBest Regards,\nMohammad Ali Al Maduri`
   
   navigator.clipboard.writeText(`${result}`)
-  console.log('ddf')
+
+  company.value = ""
+  job.value = ""
 })
